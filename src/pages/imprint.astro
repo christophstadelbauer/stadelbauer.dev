@@ -1,0 +1,63 @@
+---
+import LegalLayout from "../layouts/LegalLayout.astro";
+
+import Footer from "../components/Footer.astro";
+---
+
+<LegalLayout>
+    <main class="mx-auto max-w-3xl px-4 py-12">
+        <header class="mb-8">
+            <h1 class="text-3xl font-semibold">Imprint</h1>
+            <p class="mt-2 text-sm text-gray-500">Information in accordance with §5 TMG (German Telemedia Act)</p>
+        </header>
+
+        <section aria-labelledby="provider">
+            <h2 id="provider" class="sr-only">Provider</h2>
+            <address class="not-italic">
+            <p><strong>Christoph Stadelbauer</strong></p>
+            <p>Kurfuerstenstrasse 7</p>
+            <p>87600 Kaufbeuren</p>
+            <p>Germany</p>
+            </address>
+        </section>
+
+        <section class="mt-8" aria-labelledby="contact">
+            <h2 id="contact" class="text-xl font-medium">Contact</h2>
+            <p class="mt-2">
+            Mail: <a href="mailto:hello@stadelbauer.dev">hello@stadelbauer.dev</a>
+            </p>
+        </section>
+
+        <section class="mt-8" aria-labelledby="vat">
+            <h2 id="vat" class="text-xl font-medium">VAT Identification Number in accordance with §27a UStG</h2>
+            <dl class="mt-2">
+            <div>
+                <dt class="sr-only">VAT ID</dt>
+                <dd><code>DE356771488</code></dd>
+            </div>
+            </dl>
+        </section>
+
+        <section class="mt-8" aria-labelledby="odr">
+            <h2 id="odr" class="text-xl font-medium">EU Dispute Resolution</h2>
+            <p class="mt-2">
+            The European Commission provides a platform for online dispute resolution (ODR): 
+            <a href="https://ec.europa.eu/consumers/odr/" rel="noopener noreferrer" target="_blank">
+                https://ec.europa.eu/consumers/odr/
+            </a>
+            </p>
+            <p class="mt-2">
+            Our email address can be found above.
+            </p>
+        </section>
+
+        <section class="mt-8" aria-labelledby="arbitration">
+            <h2 id="arbitration" class="text-xl font-medium">Consumer Dispute Resolution / Universal Arbitration Board</h2>
+            <p class="mt-2">
+            We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.
+            </p>
+        </section>
+    </main>
+
+    <Footer slot="footer" />
+</LegalLayout>

@@ -1,0 +1,156 @@
+---
+import LegalLayout from "../layouts/LegalLayout.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<LegalLayout>
+  <main class="mx-auto max-w-3xl px-4 py-12 leading-relaxed">
+    <header class="mb-8">
+      <h1 class="text-3xl font-semibold">Privacy Policy</h1>
+      <p class="mt-2 text-sm text-gray-500">Last updated: October 5, 2025</p>
+    </header>
+
+    <section aria-labelledby="scope">
+      <h2 id="scope" class="sr-only">Scope</h2>
+      <p>
+        This Privacy Policy applies to all websites, mobile applications, and related services operated by
+        <strong>Christoph Stadelbauer</strong> under <strong>stadelbauer.dev</strong> (“our apps” / “our services”).
+      </p>
+      <p class="mt-2">
+        Questions? Email <a href="mailto:hello@stadelbauer.dev">hello@stadelbauer.dev</a>.
+      </p>
+    </section>
+
+    <section class="mt-8" aria-labelledby="controller">
+      <h2 id="controller" class="text-xl font-medium">1. Controller / Contact</h2>
+      <address class="not-italic mt-2">
+        <p><strong>Christoph Stadelbauer</strong></p>
+        <p>Kurfuerstenstrasse 7</p>
+        <p>87600 Kaufbeuren</p>
+        <p>Germany</p>
+        <p class="mt-2">
+          Email: <a href="mailto:hello@stadelbauer.dev">hello@stadelbauer.dev</a>
+        </p>
+      </address>
+    </section>
+
+    <section class="mt-8" aria-labelledby="principles">
+      <h2 id="principles" class="text-xl font-medium">2. General Principles</h2>
+      <p class="mt-2">
+        We collect as little data as possible. Most features work without personal information.
+        Minimal, anonymized data may be processed by third-party providers to enable in-app purchases and analytics.
+      </p>
+    </section>
+
+    <section class="mt-8" aria-labelledby="data">
+      <h2 id="data" class="text-xl font-medium">3. Data We Collect and Why</h2>
+
+      <div class="mt-6 space-y-10">
+        <div>
+          <h3 class="mt-2 font-semibold">3.1 Contacting Us</h3>
+          <p class="mt-2">
+            If you email us, we store your email address and message solely to respond.
+            We do not share this information with third parties.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="mt-2 font-semibold">3.2 In-App Purchases</h3>
+          <p class="mt-2">
+            We use <strong>RevenueCat</strong> to validate purchases and manage subscriptions.
+            Data is anonymized and used only for this purpose.
+          </p>
+          <ul class="list-disc pl-6 mt-2">
+            <li>
+              Learn more at:
+              <a
+                href="https://www.apple.com/privacy"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="underline"
+                >Apple Privacy Policy</a
+              >
+            </li>
+            <li>
+              Learn more at:
+              <a
+                href="https://www.revenuecat.com/privacy"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="underline"
+                >RevenueCat Privacy Policy</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="mt-2 font-semibold">3.3 Analytics</h3>
+          <p class="mt-2">
+            We use <strong>Mixpanel</strong> to understand general usage trends and improve the experience.
+            Data is pseudonymized; we do not collect names or emails.
+          </p>
+          <p class="mt-2">
+            Learn more at:
+            <a
+              href="https://mixpanel.com/legal/privacy-policy"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="underline"
+              >Mixpanel Privacy Policy</a
+            >
+          </p>
+        </div>
+
+        <div>
+          <h3 class="mt-2 font-semibold">3.4 Website Hosting</h3>
+          <p class="mt-2">
+            Our website (<strong>stadelbauer.dev</strong>) is hosted by <strong>Netlify</strong>.
+            Technical server logs (e.g., IP address, user agent, timestamps) may be processed for operation and security.
+          </p>
+          <p class="mt-2">
+            Learn more at:
+            <a
+              href="https://www.netlify.com/privacy/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="underline"
+              >Netlify Privacy</a
+            >
+          </p>
+        </div>
+
+        <div>
+          <h3 class="mt-2 font-semibold">3.5 Cookies</h3>
+          <p class="mt-2">We do <strong>not</strong> use cookies.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-8" aria-labelledby="security">
+      <h2 id="security" class="text-xl font-medium">4. Data Security</h2>
+      <p class="mt-2">
+        We apply appropriate technical and organizational measures to protect data from unauthorized access, loss, or misuse.
+        These measures are reviewed and updated regularly.
+      </p>
+    </section>
+
+    <section class="mt-8" aria-labelledby="rights">
+      <h2 id="rights" class="text-xl font-medium">5. Your Rights</h2>
+      <p class="mt-2">
+        Request information or deletion at
+        <a href="mailto:hello@stadelbauer.dev">hello@stadelbauer.dev</a>.
+      </p>
+    </section>
+
+    <section class="mt-8" aria-labelledby="changes">
+      <h2 id="changes" class="text-xl font-medium">6. Changes</h2>
+      <p class="mt-2">
+        We may update this policy. The current version is available at
+        <code>stadelbauer.dev/privacy-policy</code>.
+      </p>
+    </section>
+  </main>
+
+  <Footer slot="footer" />
+</LegalLayout>

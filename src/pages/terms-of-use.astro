@@ -1,0 +1,128 @@
+---
+import LegalLayout from "../layouts/LegalLayout.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<LegalLayout>
+  <main class="mx-auto max-w-3xl px-4 py-12 leading-relaxed">
+    <header class="mb-8">
+      <h1 class="text-3xl font-semibold">Terms of Use</h1>
+      <p class="mt-2 text-sm text-gray-500">Last updated: October 5, 2025</p>
+    </header>
+
+    <section aria-labelledby="intro">
+      <h2 id="intro" class="sr-only">Introduction</h2>
+      <p>
+        These Terms of Use (“Terms”) apply to all mobile applications, websites, and related services operated by
+        <strong>Christoph Stadelbauer</strong> under <strong>stadelbauer.dev</strong> (“we”, “our”, “us”).
+        By using any of our apps or services, you agree to these Terms.
+      </p>
+      <p class="mt-2">
+        For questions, please contact us at <a href="mailto:hello@stadelbauer.dev">hello@stadelbauer.dev</a>.
+      </p>
+    </section>
+
+    <section class="mt-8" aria-labelledby="use">
+      <h2 id="use" class="text-xl font-medium">1. Use of Our Services</h2>
+      <p class="mt-2">
+        Our apps and websites are provided for personal, non-commercial use.
+        You agree to use them only as permitted by these Terms and applicable law.
+        You may not copy, modify, distribute, sell, or lease any part of our services or included software, nor reverse-engineer
+        or attempt to extract the source code, except as permitted by law.
+      </p>
+    </section>
+
+    <section class="mt-8" aria-labelledby="iap">
+      <h2 id="iap" class="text-xl font-medium">2. In-App Purchases</h2>
+      <p class="mt-2">
+        Some apps may offer paid features or subscriptions through the <strong>Apple App Store</strong>.
+        All payments, renewals, and cancellations are handled directly by Apple under their own terms.
+        We do not process or store any payment information ourselves.
+      </p>
+      <ul class="list-disc pl-6 mt-2">
+        <li>
+          <a href="https://www.apple.com/legal/internet-services/itunes/" target="_blank" rel="noopener noreferrer" class="underline">
+            Apple Media Services Terms and Conditions
+          </a>
+        </li>
+        <li>
+          <a href="https://www.apple.com/privacy" target="_blank" rel="noopener noreferrer" class="underline">
+            Apple Privacy Policy
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="mt-8" aria-labelledby="ip">
+      <h2 id="ip" class="text-xl font-medium">3. Intellectual Property</h2>
+      <p class="mt-2">
+        All trademarks, logos, designs, and content provided through our services remain the property of
+        <strong>Christoph Stadelbauer</strong> or their respective owners.
+        You may not reproduce or use them without prior written consent.
+      </p>
+    </section>
+
+    <section class="mt-8" aria-labelledby="conduct">
+      <h2 id="conduct" class="text-xl font-medium">4. Prohibited Conduct</h2>
+      <p class="mt-2">
+        You agree not to misuse our services, including but not limited to:
+      </p>
+      <ul class="list-disc pl-6 mt-2">
+        <li>Interfering with or disrupting our apps or servers</li>
+        <li>Attempting to gain unauthorized access</li>
+        <li>Using our apps for illegal or harmful activities</li>
+      </ul>
+    </section>
+
+    <section class="mt-8" aria-labelledby="privacy">
+      <h2 id="privacy" class="text-xl font-medium">5. Privacy</h2>
+      <p class="mt-2">
+        We take your privacy seriously. Please review our
+        <a href="/privacy-policy" class="underline">Privacy Policy</a> to learn more about how we handle data.
+      </p>
+    </section>
+
+    <section class="mt-8" aria-labelledby="warranty">
+      <h2 id="warranty" class="text-xl font-medium">6. Disclaimer of Warranties</h2>
+      <p class="mt-2">
+        Our apps and services are provided <strong>“as is”</strong> and <strong>“as available”</strong> without any warranties,
+        express or implied. We do not guarantee uninterrupted or error-free operation.
+      </p>
+    </section>
+
+    <section class="mt-8" aria-labelledby="liability">
+      <h2 id="liability" class="text-xl font-medium">7. Limitation of Liability</h2>
+      <p class="mt-2">
+        To the maximum extent permitted by law, <strong>Christoph Stadelbauer</strong> shall not be liable for any indirect,
+        incidental, or consequential damages arising from the use of our apps or services.
+      </p>
+    </section>
+
+    <section class="mt-8" aria-labelledby="changes">
+      <h2 id="changes" class="text-xl font-medium">8. Changes to These Terms</h2>
+      <p class="mt-2">
+        We may update these Terms from time to time. The latest version will always be available at
+        <code>stadelbauer.dev/terms-of-use</code>. Continued use of our services after changes take effect constitutes
+        acceptance of the updated Terms.
+      </p>
+    </section>
+
+    <section class="mt-8" aria-labelledby="law">
+      <h2 id="law" class="text-xl font-medium">9. Governing Law</h2>
+      <p class="mt-2">
+        These Terms are governed by applicable laws in your country of residence.
+        Where required, German law applies as a fallback.
+      </p>
+    </section>
+
+    <section class="mt-8" aria-labelledby="summary">
+      <h2 id="summary" class="text-xl font-medium">Summary</h2>
+      <p class="mt-2">
+        We create simple, high-quality digital products designed to help you improve your life and well-being.
+        Please use them responsibly, respect our work, and reach out if you have any questions.
+      </p>
+    </section>
+  </main>
+
+  <Footer slot="footer" />
+</LegalLayout>
